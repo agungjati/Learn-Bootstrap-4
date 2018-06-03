@@ -1,0 +1,108 @@
+html,
+        body {
+            background-color: #e5e9ec;
+        }
+
+        nav.navbar {
+            padding: 0;
+        }
+
+        nav.navbar .container-fluid {
+            padding: 0;
+        }
+
+        .side-menu {
+            height: 100%;
+            background-color: #1b1e24;
+            margin-top: 3.5rem;
+        }
+
+        main {
+            margin-top: 3.5rem;
+        }
+
+        .navbar-header {
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul.nav li ul {
+            margin-left: 10%;
+        }
+
+        ul.nav li {
+            margin-bottom: 0.3rem;
+        }
+
+        ul.nav li a:focus .glyphicon.float-right {
+            -moz-transform: rotate(-90deg);
+            -webkit-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        ul.nav li a>.glyphicon {
+            margin-right: 0.3rem;
+        }
+
+        ul.nav li a {
+            font-size: 0.95rem;
+        }
+
+        ul.nav li.border-top {
+            border-color: #2d3033 !important;
+        }
+
+        ul.nav .nav-link {
+            color: #999;
+        }
+
+        ul.nav ul li>a.nav-link {
+            background: #060606;
+            margin-top: 0.3rem;
+        }
+
+        .nav-pills .nav-link:focus,
+        .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: inherit;
+        }
+
+        .transition,
+        .transition:hover,
+        .transition:focus {
+            -webkit-transition: all 150ms ease-in-out;
+            -moz-transition: all 150ms ease-in-out;
+            -ms-transition: all 150ms ease-in-out;
+            -o-transition: all 150ms ease-in-out;
+            transition: all 150ms ease-in-out;
+        }
+
+        @media (max-width: 767px) {
+            .hidden-xs {
+                display: none !important;
+            }
+        }
+
+        main .col-md-12>.card.shadow {
+            flex-grow: 5;
+        }
+
+        main .col-md-12>.card.shadow {
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+        }
+
+        input#search:focus {
+            background-color: #dedede !important;
+            box-shadow: 0 0;
+            border-radius: 0;
+        }
+
+        .search .glyphicon.glyphicon-search {
+            z-index: 100;
+            top: 1.3rem;
+            left: 1.2rem;
+        }

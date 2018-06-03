@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Dashboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="dist/css/glyphicon.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+</head>
+
+<body>
+
+    <nav class="navbar-expand-lg  fixed-top navbar-light bg-light shadow">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 navbar-header px-4">
+                    <a class="navbar-brand text-white" href="index.html">
+                        <h2>Dashboard</h2>
+                    </a>
+                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <form class="col-sm-3 search d-flex justify-content-between flex-row flex-wrap">
+                    <div class="input-group">
+                        <span class="glyphicon glyphicon-search d-block"></span>
+                        <input type="text" id="search" class="form-control border-0 transition pl-4" placeholder="search" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 hidden-xs position-fixed side-menu text-white">
+                <div class="mt-3">
+                    <img src="img/jon.png" width="70" class="img-thumbnail rounded-circle d-inline-block" />
+                    <h5 class="d-inline-block align-middle ml-md-1">
+                        Jon Doo
+                        <small class="d-block text-muted">@jonydoo</small>
+                    </h5>
+                </div>
+                <ul class="nav flex-column nav-pills mt-3" id="side-menu" role="tablist" aria-orientation="vertical">
+                    <li>
+                        <a class="nav-link" id="home-tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                            <span class="glyphicon glyphicon-home"></span>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" id="home-tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                            <span class="glyphicon glyphicon-user"></span>
+                            Audience
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link collapsed" id="home-tab" href="#finance-menu" role="button" data-toggle="collapse" aria-controls="finance-menu"
+                            aria-expanded="false">
+                            <span class="glyphicon glyphicon-usd"></span>
+                            Finance
+                            <span class="glyphicon glyphicon-menu-left float-right transition"></span>
+                        </a>
+                        <ul class=" collapse list-unstyled transition" id="finance-menu" aria-expanded="false">
+                            <li>
+                                <a class="nav-link" href="#">asdsa</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">asdsa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-block border-top"></li>
+                    <li>
+                        <a class="nav-link collapsed" id="project-tab" href="#project-menu" role="button" data-toggle="collapse" aria-controls="project-menu"
+                            aria-expanded="false">
+                            <span class="glyphicon glyphicon-briefcase"></span>
+                            Project
+                            <span class="glyphicon glyphicon-menu-left float-right transition"></span>
+                        </a>
+                        <ul class=" collapse list-unstyled transition" id="project-menu" aria-expanded="false">
+                            <li>
+                                <a class="nav-link" href="#">asdsa</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">asdsa</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-9 offset-md-3">
+                <main role="main">
+                    <div class="container-fluid">
+                        <div class="row mt-md-5">
+                            <div class="col-md-12 d-flex flex-row flex-wrap">
+                                <div class="card m-2 px-3 py-1 shadow">
+                                    <h3>Projects</h3>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Today</strong>
+                                        <span class="float-right">10</span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Tommorow</strong>
+                                        <span class="float-right">10</span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Range</strong>
+                                        <span class="float-right">10</span>
+                                    </div>
+                                </div>
+                                <div class="card m-2 px-3 py-1 shadow">
+                                    <h3>Information</h3>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Items :</strong>
+                                        <span class="float-right badge badge-warning text-white">10</span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Status :</strong>
+                                        <span class="float-right glyphicon glyphicon-ok"></span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Range</strong>
+                                        <span class="float-right">10%</span>
+                                    </div>
+                                </div>
+                                <div class="card m-2 px-3 py-1 shadow">
+                                    <h3>Insert Data</h3>
+                                    <form>
+                                        <label class="col-form-label">Item :</label>
+                                        <input type="number" class="form-control" name="item" />
+                                        <input type="submit" class="btn btn-block btn-success mt-1" />
+
+                                    </form>
+                                </div>
+
+                                <div class="card m-2 px-3 py-1 shadow">
+                                    <h3>Information</h3>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Items :</strong>
+                                        <span class="float-right badge badge-warning text-white">10</span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Status :</strong>
+                                        <span class="float-right glyphicon glyphicon-ok"></span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Range</strong>
+                                        <span class="float-right">10%</span>
+                                    </div>
+                                </div>
+                                <div class="card m-2 px-3 py-1 shadow">
+                                    <h3>Information</h3>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Items :</strong>
+                                        <span class="float-right badge badge-warning text-white">10</span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Status :</strong>
+                                        <span class="float-right glyphicon glyphicon-ok"></span>
+                                    </div>
+                                    <div class="border-bottom py-2 text-muted">
+                                        <strong>Range</strong>
+                                        <span class="float-right">10%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="dist/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="dist/js/popper.min.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+</body>
+
+</html>
